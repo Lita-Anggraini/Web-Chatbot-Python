@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hii", "Hi", "Halo","Hallo","Hai", "Hello", "Hy", "Hyy", "Helo"],
+     "responses": ["Halo dengan Laksabot disini. Ada yang bisa aku bantu?", "Halow", "Haii, ada yang bisa aku bantu?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Dah", "Dadah", "Bye", "Byee", "Good bye", "Selamat tinggal", "Sampai jumpa"],
+     "responses": ["Bye!", "Dadahh!", "Good bye!", "Dahh, semoga harimu menyenangkan yaa!", "Sampai jumpa lagi!"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "Terima kasih", "Makasih", "Terima kasih banyak."],
+     "responses": ["Senang bisa membantu!", "Kapan pun!", "Dengan senang hati."],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Maaf, aku ga ngerti yang kamu maksud 😔", "Tolong berikan saya informasi yang lebih jelas 🥺", "Oops, kamu ga sengaja yaa?"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["Kamu bisa apa?", "Kamu bisa ngapain?", "Kamu bisa bantu apa?", "Apa yang bisa kamu bantu?", "Tolong bantuin", "Tolong saya", "Help"],
+     "responses": ["Halo, aku bisa bantu kamu untuk pertanyaan seputar Data Alat - alat kesehatan terbaru ini.", "Silahkan tanyakan padaku soal alat - alat kesehatan yaa."],
+     "context": [""]
+    },
+    {"tag": "penjelasan_alat_kesehatan",
+     "patterns": ["Apa itu Alat Kesehatan?", "Pengertian Alat Kesehatan", "Definisi Alat Kesehatan", "Penjelasan tentang Alat Kesehatan"],
+     "responses": ["Alat kesehatan adalah instrumen, aparatus, mesin dan/atau implan yang tidak mengandung obat yang digunakan untuk mencegah, mendiagnosis, menyembuhkan dan meringankan penyakit, merawat orang sakit, memulihkan kesehatan pada manusia, dan/atau membentuk struktur dan memperbaiki fungsi tubuh."],
+     "context": [""]
+    },
+    {"tag": "jenis_alat_kesehatan",
+     "patterns": ["alat kesehatan", "Apa saja jenis alat kesehatan?", "alkes", "Jenis alkes", "sebutkan alkes","alkes apa aja", "alat - alat kesehatan"],
+     "responses": ["Jenis - jenis alat kesehatan yang banyak dijumpai di beberapa instansi kesehatan meliputi : Termometer, Tensimeter, Timbangan, Alat Tes Gula Darah, Inhaler dan Nebulizer, Tabung Oksigen, Pulse Oximeter."],
+     "context": [""]
+    },
+    {"tag": "kenapa_harus_ada_alat_kesehatan",
+     "patterns": ["Kenapa harus ada alat kesehatan?", "Fungsi alat kesehatan?", "Tujuan alat kesehatan?", "Apa tujuan alat kesehatan?" ],
+     "responses": ["Alat kesehatan sangat penting karena bertujuan untuk memberikan bantuan kesehatan dengan alat - alat yang sesuai, oleh karena itu alat kesehatan sangat penting untuk dimiliki"],
+     "context": [""]
+    }
+]
+}
